@@ -15,15 +15,15 @@ public final class ScreenMessage {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_giavudangle_protobuf_Screen_descriptor;
+    internal_static_giavudangle_grpc_Screen_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_giavudangle_protobuf_Screen_fieldAccessorTable;
+      internal_static_giavudangle_grpc_Screen_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_giavudangle_protobuf_Screen_Resolution_descriptor;
+    internal_static_giavudangle_grpc_Screen_Resolution_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_giavudangle_protobuf_Screen_Resolution_fieldAccessorTable;
+      internal_static_giavudangle_grpc_Screen_Resolution_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -33,31 +33,31 @@ public final class ScreenMessage {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024screen_message.proto\022\024giavudangle.prot" +
-      "obuf\"\365\001\n\006Screen\022\021\n\tsize_inch\030\001 \001(\002\022;\n\nre" +
-      "solution\030\002 \001(\0132\'.giavudangle.protobuf.Sc" +
-      "reen.Resolution\0221\n\005panel\030\003 \001(\0162\".giavuda" +
-      "ngle.protobuf.Screen.Panel\022\022\n\nmultitouch" +
-      "\030\004 \001(\010\032+\n\nResolution\022\r\n\005width\030\001 \001(\r\022\016\n\006h" +
-      "eight\030\002 \001(\r\"\'\n\005Panel\022\013\n\007UNKNOWN\020\000\022\007\n\003IPS" +
-      "\020\001\022\010\n\004OLED\020\002B2\n\030com.giavudangle.protobuf" +
-      "P\001Z\024giavudangle.protobufb\006proto3"
+      "\n\024screen_message.proto\022\020giavudangle.grpc" +
+      "\"\355\001\n\006Screen\022\021\n\tsize_inch\030\001 \001(\002\0227\n\nresolu" +
+      "tion\030\002 \001(\0132#.giavudangle.grpc.Screen.Res" +
+      "olution\022-\n\005panel\030\003 \001(\0162\036.giavudangle.grp" +
+      "c.Screen.Panel\022\022\n\nmultitouch\030\004 \001(\010\032+\n\nRe" +
+      "solution\022\r\n\005width\030\001 \001(\r\022\016\n\006height\030\002 \001(\r\"" +
+      "\'\n\005Panel\022\013\n\007UNKNOWN\020\000\022\007\n\003IPS\020\001\022\010\n\004OLED\020\002" +
+      "B\"\n\030com.giavudangle.protobufP\001Z\004.;pbb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_giavudangle_protobuf_Screen_descriptor =
+    internal_static_giavudangle_grpc_Screen_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_giavudangle_protobuf_Screen_fieldAccessorTable = new
+    internal_static_giavudangle_grpc_Screen_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_giavudangle_protobuf_Screen_descriptor,
+        internal_static_giavudangle_grpc_Screen_descriptor,
         new java.lang.String[] { "SizeInch", "Resolution", "Panel", "Multitouch", });
-    internal_static_giavudangle_protobuf_Screen_Resolution_descriptor =
-      internal_static_giavudangle_protobuf_Screen_descriptor.getNestedTypes().get(0);
-    internal_static_giavudangle_protobuf_Screen_Resolution_fieldAccessorTable = new
+    internal_static_giavudangle_grpc_Screen_Resolution_descriptor =
+      internal_static_giavudangle_grpc_Screen_descriptor.getNestedTypes().get(0);
+    internal_static_giavudangle_grpc_Screen_Resolution_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_giavudangle_protobuf_Screen_Resolution_descriptor,
+        internal_static_giavudangle_grpc_Screen_Resolution_descriptor,
         new java.lang.String[] { "Width", "Height", });
   }
 

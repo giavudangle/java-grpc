@@ -15,15 +15,15 @@ public final class ProcessorMessage {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_giavudangle_protobuf_CPU_descriptor;
+    internal_static_giavudangle_grpc_CPU_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_giavudangle_protobuf_CPU_fieldAccessorTable;
+      internal_static_giavudangle_grpc_CPU_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_giavudangle_protobuf_GPU_descriptor;
+    internal_static_giavudangle_grpc_GPU_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_giavudangle_protobuf_GPU_fieldAccessorTable;
+      internal_static_giavudangle_grpc_GPU_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -33,33 +33,32 @@ public final class ProcessorMessage {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027processor_message.proto\022\024giavudangle.p" +
-      "rotobuf\032\024memory_message.proto\"r\n\003CPU\022\r\n\005" +
-      "brand\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\024\n\014number_core" +
-      "s\030\003 \001(\r\022\026\n\016number_threads\030\004 \001(\r\022\017\n\007min_g" +
-      "hz\030\005 \001(\001\022\017\n\007max_ghz\030\006 \001(\001\"r\n\003GPU\022\r\n\005bran" +
-      "d\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\017\n\007min_ghz\030\003 \001(\001\022\017" +
-      "\n\007max_ghz\030\004 \001(\001\022,\n\006memory\030\005 \001(\0132\034.giavud" +
-      "angle.protobuf.MemoryB2\n\030com.giavudangle" +
-      ".protobufP\001Z\024giavudangle.protobufb\006proto" +
-      "3"
+      "\n\027processor_message.proto\022\020giavudangle.g" +
+      "rpc\032\024memory_message.proto\"r\n\003CPU\022\r\n\005bran" +
+      "d\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\024\n\014number_cores\030\003 " +
+      "\001(\r\022\026\n\016number_threads\030\004 \001(\r\022\017\n\007min_ghz\030\005" +
+      " \001(\001\022\017\n\007max_ghz\030\006 \001(\001\"n\n\003GPU\022\r\n\005brand\030\001 " +
+      "\001(\t\022\014\n\004name\030\002 \001(\t\022\017\n\007min_ghz\030\003 \001(\001\022\017\n\007ma" +
+      "x_ghz\030\004 \001(\001\022(\n\006memory\030\005 \001(\0132\030.giavudangl" +
+      "e.grpc.MemoryB\"\n\030com.giavudangle.protobu" +
+      "fP\001Z\004.;pbb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.giavudangle.protobuf.MemoryMessage.getDescriptor(),
         });
-    internal_static_giavudangle_protobuf_CPU_descriptor =
+    internal_static_giavudangle_grpc_CPU_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_giavudangle_protobuf_CPU_fieldAccessorTable = new
+    internal_static_giavudangle_grpc_CPU_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_giavudangle_protobuf_CPU_descriptor,
+        internal_static_giavudangle_grpc_CPU_descriptor,
         new java.lang.String[] { "Brand", "Name", "NumberCores", "NumberThreads", "MinGhz", "MaxGhz", });
-    internal_static_giavudangle_protobuf_GPU_descriptor =
+    internal_static_giavudangle_grpc_GPU_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_giavudangle_protobuf_GPU_fieldAccessorTable = new
+    internal_static_giavudangle_grpc_GPU_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_giavudangle_protobuf_GPU_descriptor,
+        internal_static_giavudangle_grpc_GPU_descriptor,
         new java.lang.String[] { "Brand", "Name", "MinGhz", "MaxGhz", "Memory", });
     com.giavudangle.protobuf.MemoryMessage.getDescriptor();
   }

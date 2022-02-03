@@ -15,10 +15,10 @@ public final class StorageMessage {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_giavudangle_protobuf_Storage_descriptor;
+    internal_static_giavudangle_grpc_Storage_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_giavudangle_protobuf_Storage_fieldAccessorTable;
+      internal_static_giavudangle_grpc_Storage_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,24 +28,24 @@ public final class StorageMessage {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025storage_message.proto\022\024giavudangle.pro" +
-      "tobuf\032\024memory_message.proto\"\226\001\n\007Storage\022" +
-      "4\n\006driver\030\001 \001(\0162$.giavudangle.protobuf.S" +
-      "torage.Driver\022,\n\006memory\030\002 \001(\0132\034.giavudan" +
-      "gle.protobuf.Memory\"\'\n\006Driver\022\013\n\007UNKNOWN" +
-      "\020\000\022\007\n\003HDD\020\001\022\007\n\003SSD\020\002B2\n\030com.giavudangle." +
-      "protobufP\001Z\024giavudangle.protobufb\006proto3"
+      "\n\025storage_message.proto\022\020giavudangle.grp" +
+      "c\032\024memory_message.proto\"\216\001\n\007Storage\0220\n\006d" +
+      "river\030\001 \001(\0162 .giavudangle.grpc.Storage.D" +
+      "river\022(\n\006memory\030\002 \001(\0132\030.giavudangle.grpc" +
+      ".Memory\"\'\n\006Driver\022\013\n\007UNKNOWN\020\000\022\007\n\003HDD\020\001\022" +
+      "\007\n\003SSD\020\002B\"\n\030com.giavudangle.protobufP\001Z\004" +
+      ".;pbb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.giavudangle.protobuf.MemoryMessage.getDescriptor(),
         });
-    internal_static_giavudangle_protobuf_Storage_descriptor =
+    internal_static_giavudangle_grpc_Storage_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_giavudangle_protobuf_Storage_fieldAccessorTable = new
+    internal_static_giavudangle_grpc_Storage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_giavudangle_protobuf_Storage_descriptor,
+        internal_static_giavudangle_grpc_Storage_descriptor,
         new java.lang.String[] { "Driver", "Memory", });
     com.giavudangle.protobuf.MemoryMessage.getDescriptor();
   }

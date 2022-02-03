@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.Laptop}
+ * Protobuf type {@code giavudangle.grpc.Laptop}
  */
 public final class Laptop extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Laptop)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.Laptop)
     LaptopOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Laptop.newBuilder() to construct.
@@ -87,13 +87,13 @@ private static final long serialVersionUID = 0L;
           }
           case 42: {
             com.giavudangle.protobuf.Memory.Builder subBuilder = null;
-            if (memory_ != null) {
-              subBuilder = memory_.toBuilder();
+            if (ram_ != null) {
+              subBuilder = ram_.toBuilder();
             }
-            memory_ = input.readMessage(com.giavudangle.protobuf.Memory.parser(), extensionRegistry);
+            ram_ = input.readMessage(com.giavudangle.protobuf.Memory.parser(), extensionRegistry);
             if (subBuilder != null) {
-              subBuilder.mergeFrom(memory_);
-              memory_ = subBuilder.buildPartial();
+              subBuilder.mergeFrom(ram_);
+              ram_ = subBuilder.buildPartial();
             }
 
             break;
@@ -202,13 +202,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_protobuf_Laptop_descriptor;
+    return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_grpc_Laptop_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_protobuf_Laptop_fieldAccessorTable
+    return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_grpc_Laptop_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.Laptop.class, com.giavudangle.protobuf.Laptop.Builder.class);
   }
@@ -371,7 +371,7 @@ private static final long serialVersionUID = 0L;
   public static final int CPU_FIELD_NUMBER = 4;
   private com.giavudangle.protobuf.CPU cpu_;
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    * @return Whether the cpu field is set.
    */
   @java.lang.Override
@@ -379,7 +379,7 @@ private static final long serialVersionUID = 0L;
     return cpu_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    * @return The cpu.
    */
   @java.lang.Override
@@ -387,50 +387,50 @@ private static final long serialVersionUID = 0L;
     return cpu_ == null ? com.giavudangle.protobuf.CPU.getDefaultInstance() : cpu_;
   }
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.CPUOrBuilder getCpuOrBuilder() {
     return getCpu();
   }
 
-  public static final int MEMORY_FIELD_NUMBER = 5;
-  private com.giavudangle.protobuf.Memory memory_;
+  public static final int RAM_FIELD_NUMBER = 5;
+  private com.giavudangle.protobuf.Memory ram_;
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-   * @return Whether the memory field is set.
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
+   * @return Whether the ram field is set.
    */
   @java.lang.Override
-  public boolean hasMemory() {
-    return memory_ != null;
+  public boolean hasRam() {
+    return ram_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-   * @return The memory.
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
+   * @return The ram.
    */
   @java.lang.Override
-  public com.giavudangle.protobuf.Memory getMemory() {
-    return memory_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : memory_;
+  public com.giavudangle.protobuf.Memory getRam() {
+    return ram_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : ram_;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
    */
   @java.lang.Override
-  public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
-    return getMemory();
+  public com.giavudangle.protobuf.MemoryOrBuilder getRamOrBuilder() {
+    return getRam();
   }
 
   public static final int GPUS_FIELD_NUMBER = 6;
   private java.util.List<com.giavudangle.protobuf.GPU> gpus_;
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   @java.lang.Override
   public java.util.List<com.giavudangle.protobuf.GPU> getGpusList() {
     return gpus_;
   }
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   @java.lang.Override
   public java.util.List<? extends com.giavudangle.protobuf.GPUOrBuilder> 
@@ -438,21 +438,21 @@ private static final long serialVersionUID = 0L;
     return gpus_;
   }
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   @java.lang.Override
   public int getGpusCount() {
     return gpus_.size();
   }
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.GPU getGpus(int index) {
     return gpus_.get(index);
   }
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.GPUOrBuilder getGpusOrBuilder(
@@ -463,14 +463,14 @@ private static final long serialVersionUID = 0L;
   public static final int STORAGES_FIELD_NUMBER = 7;
   private java.util.List<com.giavudangle.protobuf.Storage> storages_;
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   @java.lang.Override
   public java.util.List<com.giavudangle.protobuf.Storage> getStoragesList() {
     return storages_;
   }
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   @java.lang.Override
   public java.util.List<? extends com.giavudangle.protobuf.StorageOrBuilder> 
@@ -478,21 +478,21 @@ private static final long serialVersionUID = 0L;
     return storages_;
   }
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   @java.lang.Override
   public int getStoragesCount() {
     return storages_.size();
   }
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.Storage getStorages(int index) {
     return storages_.get(index);
   }
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.StorageOrBuilder getStoragesOrBuilder(
@@ -503,7 +503,7 @@ private static final long serialVersionUID = 0L;
   public static final int SCREEN_FIELD_NUMBER = 8;
   private com.giavudangle.protobuf.Screen screen_;
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    * @return Whether the screen field is set.
    */
   @java.lang.Override
@@ -511,7 +511,7 @@ private static final long serialVersionUID = 0L;
     return screen_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    * @return The screen.
    */
   @java.lang.Override
@@ -519,7 +519,7 @@ private static final long serialVersionUID = 0L;
     return screen_ == null ? com.giavudangle.protobuf.Screen.getDefaultInstance() : screen_;
   }
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.ScreenOrBuilder getScreenOrBuilder() {
@@ -529,7 +529,7 @@ private static final long serialVersionUID = 0L;
   public static final int KEYBOARD_FIELD_NUMBER = 9;
   private com.giavudangle.protobuf.Keyboard keyboard_;
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    * @return Whether the keyboard field is set.
    */
   @java.lang.Override
@@ -537,7 +537,7 @@ private static final long serialVersionUID = 0L;
     return keyboard_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    * @return The keyboard.
    */
   @java.lang.Override
@@ -545,7 +545,7 @@ private static final long serialVersionUID = 0L;
     return keyboard_ == null ? com.giavudangle.protobuf.Keyboard.getDefaultInstance() : keyboard_;
   }
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.KeyboardOrBuilder getKeyboardOrBuilder() {
@@ -668,8 +668,8 @@ private static final long serialVersionUID = 0L;
     if (cpu_ != null) {
       output.writeMessage(4, getCpu());
     }
-    if (memory_ != null) {
-      output.writeMessage(5, getMemory());
+    if (ram_ != null) {
+      output.writeMessage(5, getRam());
     }
     for (int i = 0; i < gpus_.size(); i++) {
       output.writeMessage(6, gpus_.get(i));
@@ -722,9 +722,9 @@ private static final long serialVersionUID = 0L;
       size += com.google.protobuf.CodedOutputStream
         .computeMessageSize(4, getCpu());
     }
-    if (memory_ != null) {
+    if (ram_ != null) {
       size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(5, getMemory());
+        .computeMessageSize(5, getRam());
     }
     for (int i = 0; i < gpus_.size(); i++) {
       size += com.google.protobuf.CodedOutputStream
@@ -790,10 +790,10 @@ private static final long serialVersionUID = 0L;
       if (!getCpu()
           .equals(other.getCpu())) return false;
     }
-    if (hasMemory() != other.hasMemory()) return false;
-    if (hasMemory()) {
-      if (!getMemory()
-          .equals(other.getMemory())) return false;
+    if (hasRam() != other.hasRam()) return false;
+    if (hasRam()) {
+      if (!getRam()
+          .equals(other.getRam())) return false;
     }
     if (!getGpusList()
         .equals(other.getGpusList())) return false;
@@ -855,9 +855,9 @@ private static final long serialVersionUID = 0L;
       hash = (37 * hash) + CPU_FIELD_NUMBER;
       hash = (53 * hash) + getCpu().hashCode();
     }
-    if (hasMemory()) {
-      hash = (37 * hash) + MEMORY_FIELD_NUMBER;
-      hash = (53 * hash) + getMemory().hashCode();
+    if (hasRam()) {
+      hash = (37 * hash) + RAM_FIELD_NUMBER;
+      hash = (53 * hash) + getRam().hashCode();
     }
     if (getGpusCount() > 0) {
       hash = (37 * hash) + GPUS_FIELD_NUMBER;
@@ -994,21 +994,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Laptop}
+   * Protobuf type {@code giavudangle.grpc.Laptop}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Laptop)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Laptop)
       com.giavudangle.protobuf.LaptopOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_protobuf_Laptop_descriptor;
+      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_grpc_Laptop_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_protobuf_Laptop_fieldAccessorTable
+      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_grpc_Laptop_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Laptop.class, com.giavudangle.protobuf.Laptop.Builder.class);
     }
@@ -1045,11 +1045,11 @@ private static final long serialVersionUID = 0L;
         cpu_ = null;
         cpuBuilder_ = null;
       }
-      if (memoryBuilder_ == null) {
-        memory_ = null;
+      if (ramBuilder_ == null) {
+        ram_ = null;
       } else {
-        memory_ = null;
-        memoryBuilder_ = null;
+        ram_ = null;
+        ramBuilder_ = null;
       }
       if (gpusBuilder_ == null) {
         gpus_ = java.util.Collections.emptyList();
@@ -1093,7 +1093,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_protobuf_Laptop_descriptor;
+      return com.giavudangle.protobuf.LaptopMessage.internal_static_giavudangle_grpc_Laptop_descriptor;
     }
 
     @java.lang.Override
@@ -1122,10 +1122,10 @@ private static final long serialVersionUID = 0L;
       } else {
         result.cpu_ = cpuBuilder_.build();
       }
-      if (memoryBuilder_ == null) {
-        result.memory_ = memory_;
+      if (ramBuilder_ == null) {
+        result.ram_ = ram_;
       } else {
-        result.memory_ = memoryBuilder_.build();
+        result.ram_ = ramBuilder_.build();
       }
       if (gpusBuilder_ == null) {
         if (((bitField0_ & 0x00000001) != 0)) {
@@ -1232,8 +1232,8 @@ private static final long serialVersionUID = 0L;
       if (other.hasCpu()) {
         mergeCpu(other.getCpu());
       }
-      if (other.hasMemory()) {
-        mergeMemory(other.getMemory());
+      if (other.hasRam()) {
+        mergeRam(other.getRam());
       }
       if (gpusBuilder_ == null) {
         if (!other.gpus_.isEmpty()) {
@@ -1592,14 +1592,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.CPU, com.giavudangle.protobuf.CPU.Builder, com.giavudangle.protobuf.CPUOrBuilder> cpuBuilder_;
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      * @return Whether the cpu field is set.
      */
     public boolean hasCpu() {
       return cpuBuilder_ != null || cpu_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      * @return The cpu.
      */
     public com.giavudangle.protobuf.CPU getCpu() {
@@ -1610,7 +1610,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public Builder setCpu(com.giavudangle.protobuf.CPU value) {
       if (cpuBuilder_ == null) {
@@ -1626,7 +1626,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public Builder setCpu(
         com.giavudangle.protobuf.CPU.Builder builderForValue) {
@@ -1640,7 +1640,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public Builder mergeCpu(com.giavudangle.protobuf.CPU value) {
       if (cpuBuilder_ == null) {
@@ -1658,7 +1658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public Builder clearCpu() {
       if (cpuBuilder_ == null) {
@@ -1672,7 +1672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public com.giavudangle.protobuf.CPU.Builder getCpuBuilder() {
       
@@ -1680,7 +1680,7 @@ private static final long serialVersionUID = 0L;
       return getCpuFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     public com.giavudangle.protobuf.CPUOrBuilder getCpuOrBuilder() {
       if (cpuBuilder_ != null) {
@@ -1691,7 +1691,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+     * <code>.giavudangle.grpc.CPU cpu = 4;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.CPU, com.giavudangle.protobuf.CPU.Builder, com.giavudangle.protobuf.CPUOrBuilder> 
@@ -1707,123 +1707,123 @@ private static final long serialVersionUID = 0L;
       return cpuBuilder_;
     }
 
-    private com.giavudangle.protobuf.Memory memory_;
+    private com.giavudangle.protobuf.Memory ram_;
     private com.google.protobuf.SingleFieldBuilderV3<
-        com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> memoryBuilder_;
+        com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> ramBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-     * @return Whether the memory field is set.
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
+     * @return Whether the ram field is set.
      */
-    public boolean hasMemory() {
-      return memoryBuilder_ != null || memory_ != null;
+    public boolean hasRam() {
+      return ramBuilder_ != null || ram_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-     * @return The memory.
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
+     * @return The ram.
      */
-    public com.giavudangle.protobuf.Memory getMemory() {
-      if (memoryBuilder_ == null) {
-        return memory_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : memory_;
+    public com.giavudangle.protobuf.Memory getRam() {
+      if (ramBuilder_ == null) {
+        return ram_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : ram_;
       } else {
-        return memoryBuilder_.getMessage();
+        return ramBuilder_.getMessage();
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public Builder setMemory(com.giavudangle.protobuf.Memory value) {
-      if (memoryBuilder_ == null) {
+    public Builder setRam(com.giavudangle.protobuf.Memory value) {
+      if (ramBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
         }
-        memory_ = value;
+        ram_ = value;
         onChanged();
       } else {
-        memoryBuilder_.setMessage(value);
+        ramBuilder_.setMessage(value);
       }
 
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public Builder setMemory(
+    public Builder setRam(
         com.giavudangle.protobuf.Memory.Builder builderForValue) {
-      if (memoryBuilder_ == null) {
-        memory_ = builderForValue.build();
+      if (ramBuilder_ == null) {
+        ram_ = builderForValue.build();
         onChanged();
       } else {
-        memoryBuilder_.setMessage(builderForValue.build());
+        ramBuilder_.setMessage(builderForValue.build());
       }
 
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public Builder mergeMemory(com.giavudangle.protobuf.Memory value) {
-      if (memoryBuilder_ == null) {
-        if (memory_ != null) {
-          memory_ =
-            com.giavudangle.protobuf.Memory.newBuilder(memory_).mergeFrom(value).buildPartial();
+    public Builder mergeRam(com.giavudangle.protobuf.Memory value) {
+      if (ramBuilder_ == null) {
+        if (ram_ != null) {
+          ram_ =
+            com.giavudangle.protobuf.Memory.newBuilder(ram_).mergeFrom(value).buildPartial();
         } else {
-          memory_ = value;
+          ram_ = value;
         }
         onChanged();
       } else {
-        memoryBuilder_.mergeFrom(value);
+        ramBuilder_.mergeFrom(value);
       }
 
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public Builder clearMemory() {
-      if (memoryBuilder_ == null) {
-        memory_ = null;
+    public Builder clearRam() {
+      if (ramBuilder_ == null) {
+        ram_ = null;
         onChanged();
       } else {
-        memory_ = null;
-        memoryBuilder_ = null;
+        ram_ = null;
+        ramBuilder_ = null;
       }
 
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public com.giavudangle.protobuf.Memory.Builder getMemoryBuilder() {
+    public com.giavudangle.protobuf.Memory.Builder getRamBuilder() {
       
       onChanged();
-      return getMemoryFieldBuilder().getBuilder();
+      return getRamFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
-    public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
-      if (memoryBuilder_ != null) {
-        return memoryBuilder_.getMessageOrBuilder();
+    public com.giavudangle.protobuf.MemoryOrBuilder getRamOrBuilder() {
+      if (ramBuilder_ != null) {
+        return ramBuilder_.getMessageOrBuilder();
       } else {
-        return memory_ == null ?
-            com.giavudangle.protobuf.Memory.getDefaultInstance() : memory_;
+        return ram_ == null ?
+            com.giavudangle.protobuf.Memory.getDefaultInstance() : ram_;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory ram = 5;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> 
-        getMemoryFieldBuilder() {
-      if (memoryBuilder_ == null) {
-        memoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+        getRamFieldBuilder() {
+      if (ramBuilder_ == null) {
+        ramBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
             com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder>(
-                getMemory(),
+                getRam(),
                 getParentForChildren(),
                 isClean());
-        memory_ = null;
+        ram_ = null;
       }
-      return memoryBuilder_;
+      return ramBuilder_;
     }
 
     private java.util.List<com.giavudangle.protobuf.GPU> gpus_ =
@@ -1839,7 +1839,7 @@ private static final long serialVersionUID = 0L;
         com.giavudangle.protobuf.GPU, com.giavudangle.protobuf.GPU.Builder, com.giavudangle.protobuf.GPUOrBuilder> gpusBuilder_;
 
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public java.util.List<com.giavudangle.protobuf.GPU> getGpusList() {
       if (gpusBuilder_ == null) {
@@ -1849,7 +1849,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public int getGpusCount() {
       if (gpusBuilder_ == null) {
@@ -1859,7 +1859,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public com.giavudangle.protobuf.GPU getGpus(int index) {
       if (gpusBuilder_ == null) {
@@ -1869,7 +1869,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder setGpus(
         int index, com.giavudangle.protobuf.GPU value) {
@@ -1886,7 +1886,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder setGpus(
         int index, com.giavudangle.protobuf.GPU.Builder builderForValue) {
@@ -1900,7 +1900,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder addGpus(com.giavudangle.protobuf.GPU value) {
       if (gpusBuilder_ == null) {
@@ -1916,7 +1916,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder addGpus(
         int index, com.giavudangle.protobuf.GPU value) {
@@ -1933,7 +1933,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder addGpus(
         com.giavudangle.protobuf.GPU.Builder builderForValue) {
@@ -1947,7 +1947,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder addGpus(
         int index, com.giavudangle.protobuf.GPU.Builder builderForValue) {
@@ -1961,7 +1961,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder addAllGpus(
         java.lang.Iterable<? extends com.giavudangle.protobuf.GPU> values) {
@@ -1976,7 +1976,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder clearGpus() {
       if (gpusBuilder_ == null) {
@@ -1989,7 +1989,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public Builder removeGpus(int index) {
       if (gpusBuilder_ == null) {
@@ -2002,14 +2002,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public com.giavudangle.protobuf.GPU.Builder getGpusBuilder(
         int index) {
       return getGpusFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public com.giavudangle.protobuf.GPUOrBuilder getGpusOrBuilder(
         int index) {
@@ -2019,7 +2019,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public java.util.List<? extends com.giavudangle.protobuf.GPUOrBuilder> 
          getGpusOrBuilderList() {
@@ -2030,14 +2030,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public com.giavudangle.protobuf.GPU.Builder addGpusBuilder() {
       return getGpusFieldBuilder().addBuilder(
           com.giavudangle.protobuf.GPU.getDefaultInstance());
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public com.giavudangle.protobuf.GPU.Builder addGpusBuilder(
         int index) {
@@ -2045,7 +2045,7 @@ private static final long serialVersionUID = 0L;
           index, com.giavudangle.protobuf.GPU.getDefaultInstance());
     }
     /**
-     * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+     * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
      */
     public java.util.List<com.giavudangle.protobuf.GPU.Builder> 
          getGpusBuilderList() {
@@ -2079,7 +2079,7 @@ private static final long serialVersionUID = 0L;
         com.giavudangle.protobuf.Storage, com.giavudangle.protobuf.Storage.Builder, com.giavudangle.protobuf.StorageOrBuilder> storagesBuilder_;
 
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public java.util.List<com.giavudangle.protobuf.Storage> getStoragesList() {
       if (storagesBuilder_ == null) {
@@ -2089,7 +2089,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public int getStoragesCount() {
       if (storagesBuilder_ == null) {
@@ -2099,7 +2099,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public com.giavudangle.protobuf.Storage getStorages(int index) {
       if (storagesBuilder_ == null) {
@@ -2109,7 +2109,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder setStorages(
         int index, com.giavudangle.protobuf.Storage value) {
@@ -2126,7 +2126,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder setStorages(
         int index, com.giavudangle.protobuf.Storage.Builder builderForValue) {
@@ -2140,7 +2140,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder addStorages(com.giavudangle.protobuf.Storage value) {
       if (storagesBuilder_ == null) {
@@ -2156,7 +2156,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder addStorages(
         int index, com.giavudangle.protobuf.Storage value) {
@@ -2173,7 +2173,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder addStorages(
         com.giavudangle.protobuf.Storage.Builder builderForValue) {
@@ -2187,7 +2187,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder addStorages(
         int index, com.giavudangle.protobuf.Storage.Builder builderForValue) {
@@ -2201,7 +2201,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder addAllStorages(
         java.lang.Iterable<? extends com.giavudangle.protobuf.Storage> values) {
@@ -2216,7 +2216,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder clearStorages() {
       if (storagesBuilder_ == null) {
@@ -2229,7 +2229,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public Builder removeStorages(int index) {
       if (storagesBuilder_ == null) {
@@ -2242,14 +2242,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public com.giavudangle.protobuf.Storage.Builder getStoragesBuilder(
         int index) {
       return getStoragesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public com.giavudangle.protobuf.StorageOrBuilder getStoragesOrBuilder(
         int index) {
@@ -2259,7 +2259,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public java.util.List<? extends com.giavudangle.protobuf.StorageOrBuilder> 
          getStoragesOrBuilderList() {
@@ -2270,14 +2270,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public com.giavudangle.protobuf.Storage.Builder addStoragesBuilder() {
       return getStoragesFieldBuilder().addBuilder(
           com.giavudangle.protobuf.Storage.getDefaultInstance());
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public com.giavudangle.protobuf.Storage.Builder addStoragesBuilder(
         int index) {
@@ -2285,7 +2285,7 @@ private static final long serialVersionUID = 0L;
           index, com.giavudangle.protobuf.Storage.getDefaultInstance());
     }
     /**
-     * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+     * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
      */
     public java.util.List<com.giavudangle.protobuf.Storage.Builder> 
          getStoragesBuilderList() {
@@ -2310,14 +2310,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Screen, com.giavudangle.protobuf.Screen.Builder, com.giavudangle.protobuf.ScreenOrBuilder> screenBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      * @return Whether the screen field is set.
      */
     public boolean hasScreen() {
       return screenBuilder_ != null || screen_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      * @return The screen.
      */
     public com.giavudangle.protobuf.Screen getScreen() {
@@ -2328,7 +2328,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public Builder setScreen(com.giavudangle.protobuf.Screen value) {
       if (screenBuilder_ == null) {
@@ -2344,7 +2344,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public Builder setScreen(
         com.giavudangle.protobuf.Screen.Builder builderForValue) {
@@ -2358,7 +2358,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public Builder mergeScreen(com.giavudangle.protobuf.Screen value) {
       if (screenBuilder_ == null) {
@@ -2376,7 +2376,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public Builder clearScreen() {
       if (screenBuilder_ == null) {
@@ -2390,7 +2390,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public com.giavudangle.protobuf.Screen.Builder getScreenBuilder() {
       
@@ -2398,7 +2398,7 @@ private static final long serialVersionUID = 0L;
       return getScreenFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     public com.giavudangle.protobuf.ScreenOrBuilder getScreenOrBuilder() {
       if (screenBuilder_ != null) {
@@ -2409,7 +2409,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+     * <code>.giavudangle.grpc.Screen screen = 8;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Screen, com.giavudangle.protobuf.Screen.Builder, com.giavudangle.protobuf.ScreenOrBuilder> 
@@ -2429,14 +2429,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Keyboard, com.giavudangle.protobuf.Keyboard.Builder, com.giavudangle.protobuf.KeyboardOrBuilder> keyboardBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      * @return Whether the keyboard field is set.
      */
     public boolean hasKeyboard() {
       return keyboardBuilder_ != null || keyboard_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      * @return The keyboard.
      */
     public com.giavudangle.protobuf.Keyboard getKeyboard() {
@@ -2447,7 +2447,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public Builder setKeyboard(com.giavudangle.protobuf.Keyboard value) {
       if (keyboardBuilder_ == null) {
@@ -2463,7 +2463,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public Builder setKeyboard(
         com.giavudangle.protobuf.Keyboard.Builder builderForValue) {
@@ -2477,7 +2477,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public Builder mergeKeyboard(com.giavudangle.protobuf.Keyboard value) {
       if (keyboardBuilder_ == null) {
@@ -2495,7 +2495,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public Builder clearKeyboard() {
       if (keyboardBuilder_ == null) {
@@ -2509,7 +2509,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public com.giavudangle.protobuf.Keyboard.Builder getKeyboardBuilder() {
       
@@ -2517,7 +2517,7 @@ private static final long serialVersionUID = 0L;
       return getKeyboardFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     public com.giavudangle.protobuf.KeyboardOrBuilder getKeyboardOrBuilder() {
       if (keyboardBuilder_ != null) {
@@ -2528,7 +2528,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+     * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Keyboard, com.giavudangle.protobuf.Keyboard.Builder, com.giavudangle.protobuf.KeyboardOrBuilder> 
@@ -2819,10 +2819,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Laptop)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Laptop)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Laptop)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.Laptop)
   private static final com.giavudangle.protobuf.Laptop DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.Laptop();

@@ -4,7 +4,7 @@
 package com.giavudangle.protobuf;
 
 public interface GPUOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.GPU)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.GPU)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -44,17 +44,17 @@ public interface GPUOrBuilder extends
   double getMaxGhz();
 
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    * @return Whether the memory field is set.
    */
   boolean hasMemory();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    * @return The memory.
    */
   com.giavudangle.protobuf.Memory getMemory();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    */
   com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder();
 }

@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.Screen}
+ * Protobuf type {@code giavudangle.grpc.Screen}
  */
 public final class Screen extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Screen)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.Screen)
     ScreenOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Screen.newBuilder() to construct.
@@ -99,19 +99,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_descriptor;
+    return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_fieldAccessorTable
+    return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.Screen.class, com.giavudangle.protobuf.Screen.Builder.class);
   }
 
   /**
-   * Protobuf enum {@code giavudangle.protobuf.Screen.Panel}
+   * Protobuf enum {@code giavudangle.grpc.Screen.Panel}
    */
   public enum Panel
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -224,11 +224,11 @@ private static final long serialVersionUID = 0L;
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:giavudangle.protobuf.Screen.Panel)
+    // @@protoc_insertion_point(enum_scope:giavudangle.grpc.Screen.Panel)
   }
 
   public interface ResolutionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.Screen.Resolution)
+      // @@protoc_insertion_point(interface_extends:giavudangle.grpc.Screen.Resolution)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -244,11 +244,11 @@ private static final long serialVersionUID = 0L;
     int getHeight();
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Screen.Resolution}
+   * Protobuf type {@code giavudangle.grpc.Screen.Resolution}
    */
   public static final class Resolution extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Screen.Resolution)
+      // @@protoc_insertion_point(message_implements:giavudangle.grpc.Screen.Resolution)
       ResolutionOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Resolution.newBuilder() to construct.
@@ -319,13 +319,13 @@ private static final long serialVersionUID = 0L;
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_Resolution_descriptor;
+      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_Resolution_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_Resolution_fieldAccessorTable
+      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_Resolution_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Screen.Resolution.class, com.giavudangle.protobuf.Screen.Resolution.Builder.class);
     }
@@ -519,21 +519,21 @@ private static final long serialVersionUID = 0L;
       return builder;
     }
     /**
-     * Protobuf type {@code giavudangle.protobuf.Screen.Resolution}
+     * Protobuf type {@code giavudangle.grpc.Screen.Resolution}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Screen.Resolution)
+        // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Screen.Resolution)
         com.giavudangle.protobuf.Screen.ResolutionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_Resolution_descriptor;
+        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_Resolution_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_Resolution_fieldAccessorTable
+        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_Resolution_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.giavudangle.protobuf.Screen.Resolution.class, com.giavudangle.protobuf.Screen.Resolution.Builder.class);
       }
@@ -566,7 +566,7 @@ private static final long serialVersionUID = 0L;
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_Resolution_descriptor;
+        return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_Resolution_descriptor;
       }
 
       @java.lang.Override
@@ -745,10 +745,10 @@ private static final long serialVersionUID = 0L;
       }
 
 
-      // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Screen.Resolution)
+      // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Screen.Resolution)
     }
 
-    // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Screen.Resolution)
+    // @@protoc_insertion_point(class_scope:giavudangle.grpc.Screen.Resolution)
     private static final com.giavudangle.protobuf.Screen.Resolution DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.giavudangle.protobuf.Screen.Resolution();
@@ -799,7 +799,7 @@ private static final long serialVersionUID = 0L;
   public static final int RESOLUTION_FIELD_NUMBER = 2;
   private com.giavudangle.protobuf.Screen.Resolution resolution_;
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    * @return Whether the resolution field is set.
    */
   @java.lang.Override
@@ -807,7 +807,7 @@ private static final long serialVersionUID = 0L;
     return resolution_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    * @return The resolution.
    */
   @java.lang.Override
@@ -815,7 +815,7 @@ private static final long serialVersionUID = 0L;
     return resolution_ == null ? com.giavudangle.protobuf.Screen.Resolution.getDefaultInstance() : resolution_;
   }
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.Screen.ResolutionOrBuilder getResolutionOrBuilder() {
@@ -825,14 +825,14 @@ private static final long serialVersionUID = 0L;
   public static final int PANEL_FIELD_NUMBER = 3;
   private int panel_;
   /**
-   * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+   * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
    * @return The enum numeric value on the wire for panel.
    */
   @java.lang.Override public int getPanelValue() {
     return panel_;
   }
   /**
-   * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+   * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
    * @return The panel.
    */
   @java.lang.Override public com.giavudangle.protobuf.Screen.Panel getPanel() {
@@ -1048,21 +1048,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Screen}
+   * Protobuf type {@code giavudangle.grpc.Screen}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Screen)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Screen)
       com.giavudangle.protobuf.ScreenOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_descriptor;
+      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_fieldAccessorTable
+      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Screen.class, com.giavudangle.protobuf.Screen.Builder.class);
     }
@@ -1103,7 +1103,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_protobuf_Screen_descriptor;
+      return com.giavudangle.protobuf.ScreenMessage.internal_static_giavudangle_grpc_Screen_descriptor;
     }
 
     @java.lang.Override
@@ -1255,14 +1255,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Screen.Resolution, com.giavudangle.protobuf.Screen.Resolution.Builder, com.giavudangle.protobuf.Screen.ResolutionOrBuilder> resolutionBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      * @return Whether the resolution field is set.
      */
     public boolean hasResolution() {
       return resolutionBuilder_ != null || resolution_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      * @return The resolution.
      */
     public com.giavudangle.protobuf.Screen.Resolution getResolution() {
@@ -1273,7 +1273,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public Builder setResolution(com.giavudangle.protobuf.Screen.Resolution value) {
       if (resolutionBuilder_ == null) {
@@ -1289,7 +1289,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public Builder setResolution(
         com.giavudangle.protobuf.Screen.Resolution.Builder builderForValue) {
@@ -1303,7 +1303,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public Builder mergeResolution(com.giavudangle.protobuf.Screen.Resolution value) {
       if (resolutionBuilder_ == null) {
@@ -1321,7 +1321,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public Builder clearResolution() {
       if (resolutionBuilder_ == null) {
@@ -1335,7 +1335,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public com.giavudangle.protobuf.Screen.Resolution.Builder getResolutionBuilder() {
       
@@ -1343,7 +1343,7 @@ private static final long serialVersionUID = 0L;
       return getResolutionFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     public com.giavudangle.protobuf.Screen.ResolutionOrBuilder getResolutionOrBuilder() {
       if (resolutionBuilder_ != null) {
@@ -1354,7 +1354,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+     * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Screen.Resolution, com.giavudangle.protobuf.Screen.Resolution.Builder, com.giavudangle.protobuf.Screen.ResolutionOrBuilder> 
@@ -1372,14 +1372,14 @@ private static final long serialVersionUID = 0L;
 
     private int panel_ = 0;
     /**
-     * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+     * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
      * @return The enum numeric value on the wire for panel.
      */
     @java.lang.Override public int getPanelValue() {
       return panel_;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+     * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
      * @param value The enum numeric value on the wire for panel to set.
      * @return This builder for chaining.
      */
@@ -1390,7 +1390,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+     * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
      * @return The panel.
      */
     @java.lang.Override
@@ -1400,7 +1400,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? com.giavudangle.protobuf.Screen.Panel.UNRECOGNIZED : result;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+     * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
      * @param value The panel to set.
      * @return This builder for chaining.
      */
@@ -1414,7 +1414,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+     * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
      * @return This builder for chaining.
      */
     public Builder clearPanel() {
@@ -1467,10 +1467,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Screen)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Screen)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Screen)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.Screen)
   private static final com.giavudangle.protobuf.Screen DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.Screen();

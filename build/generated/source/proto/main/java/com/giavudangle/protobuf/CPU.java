@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.CPU}
+ * Protobuf type {@code giavudangle.grpc.CPU}
  */
 public final class CPU extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.CPU)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.CPU)
     CPUOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CPU.newBuilder() to construct.
@@ -103,13 +103,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_CPU_descriptor;
+    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_CPU_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_CPU_fieldAccessorTable
+    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_CPU_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.CPU.class, com.giavudangle.protobuf.CPU.Builder.class);
   }
@@ -447,21 +447,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.CPU}
+   * Protobuf type {@code giavudangle.grpc.CPU}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.CPU)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.CPU)
       com.giavudangle.protobuf.CPUOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_CPU_descriptor;
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_CPU_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_CPU_fieldAccessorTable
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_CPU_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.CPU.class, com.giavudangle.protobuf.CPU.Builder.class);
     }
@@ -502,7 +502,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_CPU_descriptor;
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_CPU_descriptor;
     }
 
     @java.lang.Override
@@ -913,10 +913,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.CPU)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.CPU)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.CPU)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.CPU)
   private static final com.giavudangle.protobuf.CPU DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.CPU();

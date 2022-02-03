@@ -4,7 +4,7 @@
 package com.giavudangle.protobuf;
 
 public interface LaptopOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.Laptop)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.Laptop)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -44,110 +44,110 @@ public interface LaptopOrBuilder extends
       getNameBytes();
 
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    * @return Whether the cpu field is set.
    */
   boolean hasCpu();
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    * @return The cpu.
    */
   com.giavudangle.protobuf.CPU getCpu();
   /**
-   * <code>.giavudangle.protobuf.CPU cpu = 4;</code>
+   * <code>.giavudangle.grpc.CPU cpu = 4;</code>
    */
   com.giavudangle.protobuf.CPUOrBuilder getCpuOrBuilder();
 
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-   * @return Whether the memory field is set.
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
+   * @return Whether the ram field is set.
    */
-  boolean hasMemory();
+  boolean hasRam();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
-   * @return The memory.
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
+   * @return The ram.
    */
-  com.giavudangle.protobuf.Memory getMemory();
+  com.giavudangle.protobuf.Memory getRam();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory ram = 5;</code>
    */
-  com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder();
+  com.giavudangle.protobuf.MemoryOrBuilder getRamOrBuilder();
 
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   java.util.List<com.giavudangle.protobuf.GPU> 
       getGpusList();
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   com.giavudangle.protobuf.GPU getGpus(int index);
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   int getGpusCount();
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   java.util.List<? extends com.giavudangle.protobuf.GPUOrBuilder> 
       getGpusOrBuilderList();
   /**
-   * <code>repeated .giavudangle.protobuf.GPU gpus = 6;</code>
+   * <code>repeated .giavudangle.grpc.GPU gpus = 6;</code>
    */
   com.giavudangle.protobuf.GPUOrBuilder getGpusOrBuilder(
       int index);
 
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   java.util.List<com.giavudangle.protobuf.Storage> 
       getStoragesList();
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   com.giavudangle.protobuf.Storage getStorages(int index);
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   int getStoragesCount();
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   java.util.List<? extends com.giavudangle.protobuf.StorageOrBuilder> 
       getStoragesOrBuilderList();
   /**
-   * <code>repeated .giavudangle.protobuf.Storage storages = 7;</code>
+   * <code>repeated .giavudangle.grpc.Storage storages = 7;</code>
    */
   com.giavudangle.protobuf.StorageOrBuilder getStoragesOrBuilder(
       int index);
 
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    * @return Whether the screen field is set.
    */
   boolean hasScreen();
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    * @return The screen.
    */
   com.giavudangle.protobuf.Screen getScreen();
   /**
-   * <code>.giavudangle.protobuf.Screen screen = 8;</code>
+   * <code>.giavudangle.grpc.Screen screen = 8;</code>
    */
   com.giavudangle.protobuf.ScreenOrBuilder getScreenOrBuilder();
 
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    * @return Whether the keyboard field is set.
    */
   boolean hasKeyboard();
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    * @return The keyboard.
    */
   com.giavudangle.protobuf.Keyboard getKeyboard();
   /**
-   * <code>.giavudangle.protobuf.Keyboard keyboard = 9;</code>
+   * <code>.giavudangle.grpc.Keyboard keyboard = 9;</code>
    */
   com.giavudangle.protobuf.KeyboardOrBuilder getKeyboardOrBuilder();
 

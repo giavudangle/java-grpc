@@ -4,32 +4,32 @@
 package com.giavudangle.protobuf;
 
 public interface StorageOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.Storage)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.Storage)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+   * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
    * @return The enum numeric value on the wire for driver.
    */
   int getDriverValue();
   /**
-   * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+   * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
    * @return The driver.
    */
   com.giavudangle.protobuf.Storage.Driver getDriver();
 
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    * @return Whether the memory field is set.
    */
   boolean hasMemory();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    * @return The memory.
    */
   com.giavudangle.protobuf.Memory getMemory();
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    */
   com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder();
 }

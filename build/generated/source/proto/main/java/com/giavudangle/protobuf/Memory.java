@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.Memory}
+ * Protobuf type {@code giavudangle.grpc.Memory}
  */
 public final class Memory extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Memory)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.Memory)
     MemoryOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Memory.newBuilder() to construct.
@@ -81,19 +81,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_protobuf_Memory_descriptor;
+    return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_grpc_Memory_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_protobuf_Memory_fieldAccessorTable
+    return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_grpc_Memory_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.Memory.class, com.giavudangle.protobuf.Memory.Builder.class);
   }
 
   /**
-   * Protobuf enum {@code giavudangle.protobuf.Memory.Unit}
+   * Protobuf enum {@code giavudangle.grpc.Memory.Unit}
    */
   public enum Unit
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -242,7 +242,7 @@ private static final long serialVersionUID = 0L;
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:giavudangle.protobuf.Memory.Unit)
+    // @@protoc_insertion_point(enum_scope:giavudangle.grpc.Memory.Unit)
   }
 
   public static final int VALUE_FIELD_NUMBER = 1;
@@ -259,14 +259,14 @@ private static final long serialVersionUID = 0L;
   public static final int UNIT_FIELD_NUMBER = 2;
   private int unit_;
   /**
-   * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+   * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
    * @return The enum numeric value on the wire for unit.
    */
   @java.lang.Override public int getUnitValue() {
     return unit_;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+   * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
    * @return The unit.
    */
   @java.lang.Override public com.giavudangle.protobuf.Memory.Unit getUnit() {
@@ -442,21 +442,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Memory}
+   * Protobuf type {@code giavudangle.grpc.Memory}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Memory)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Memory)
       com.giavudangle.protobuf.MemoryOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_protobuf_Memory_descriptor;
+      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_grpc_Memory_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_protobuf_Memory_fieldAccessorTable
+      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_grpc_Memory_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Memory.class, com.giavudangle.protobuf.Memory.Builder.class);
     }
@@ -489,7 +489,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_protobuf_Memory_descriptor;
+      return com.giavudangle.protobuf.MemoryMessage.internal_static_giavudangle_grpc_Memory_descriptor;
     }
 
     @java.lang.Override
@@ -627,14 +627,14 @@ private static final long serialVersionUID = 0L;
 
     private int unit_ = 0;
     /**
-     * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+     * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
      * @return The enum numeric value on the wire for unit.
      */
     @java.lang.Override public int getUnitValue() {
       return unit_;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+     * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
      * @param value The enum numeric value on the wire for unit to set.
      * @return This builder for chaining.
      */
@@ -645,7 +645,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+     * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
      * @return The unit.
      */
     @java.lang.Override
@@ -655,7 +655,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? com.giavudangle.protobuf.Memory.Unit.UNRECOGNIZED : result;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+     * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
      * @param value The unit to set.
      * @return This builder for chaining.
      */
@@ -669,7 +669,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+     * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
      * @return This builder for chaining.
      */
     public Builder clearUnit() {
@@ -691,10 +691,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Memory)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Memory)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Memory)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.Memory)
   private static final com.giavudangle.protobuf.Memory DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.Memory();

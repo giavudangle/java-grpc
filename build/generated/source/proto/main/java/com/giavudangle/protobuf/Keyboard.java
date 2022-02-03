@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.Keyboard}
+ * Protobuf type {@code giavudangle.grpc.Keyboard}
  */
 public final class Keyboard extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Keyboard)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.Keyboard)
     KeyboardOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Keyboard.newBuilder() to construct.
@@ -81,19 +81,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_protobuf_Keyboard_descriptor;
+    return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_grpc_Keyboard_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_protobuf_Keyboard_fieldAccessorTable
+    return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_grpc_Keyboard_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.Keyboard.class, com.giavudangle.protobuf.Keyboard.Builder.class);
   }
 
   /**
-   * Protobuf enum {@code giavudangle.protobuf.Keyboard.Layout}
+   * Protobuf enum {@code giavudangle.grpc.Keyboard.Layout}
    */
   public enum Layout
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -215,20 +215,20 @@ private static final long serialVersionUID = 0L;
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:giavudangle.protobuf.Keyboard.Layout)
+    // @@protoc_insertion_point(enum_scope:giavudangle.grpc.Keyboard.Layout)
   }
 
   public static final int LAYOUT_FIELD_NUMBER = 1;
   private int layout_;
   /**
-   * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+   * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
    * @return The enum numeric value on the wire for layout.
    */
   @java.lang.Override public int getLayoutValue() {
     return layout_;
   }
   /**
-   * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+   * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
    * @return The layout.
    */
   @java.lang.Override public com.giavudangle.protobuf.Keyboard.Layout getLayout() {
@@ -415,21 +415,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Keyboard}
+   * Protobuf type {@code giavudangle.grpc.Keyboard}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Keyboard)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Keyboard)
       com.giavudangle.protobuf.KeyboardOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_protobuf_Keyboard_descriptor;
+      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_grpc_Keyboard_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_protobuf_Keyboard_fieldAccessorTable
+      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_grpc_Keyboard_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Keyboard.class, com.giavudangle.protobuf.Keyboard.Builder.class);
     }
@@ -462,7 +462,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_protobuf_Keyboard_descriptor;
+      return com.giavudangle.protobuf.KeyboardMessage.internal_static_giavudangle_grpc_Keyboard_descriptor;
     }
 
     @java.lang.Override
@@ -569,14 +569,14 @@ private static final long serialVersionUID = 0L;
 
     private int layout_ = 0;
     /**
-     * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+     * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
      * @return The enum numeric value on the wire for layout.
      */
     @java.lang.Override public int getLayoutValue() {
       return layout_;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+     * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
      * @param value The enum numeric value on the wire for layout to set.
      * @return This builder for chaining.
      */
@@ -587,7 +587,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+     * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
      * @return The layout.
      */
     @java.lang.Override
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? com.giavudangle.protobuf.Keyboard.Layout.UNRECOGNIZED : result;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+     * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
      * @param value The layout to set.
      * @return This builder for chaining.
      */
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Keyboard.Layout layout = 1;</code>
+     * <code>.giavudangle.grpc.Keyboard.Layout layout = 1;</code>
      * @return This builder for chaining.
      */
     public Builder clearLayout() {
@@ -664,10 +664,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Keyboard)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Keyboard)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Keyboard)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.Keyboard)
   private static final com.giavudangle.protobuf.Keyboard DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.Keyboard();

@@ -4,7 +4,7 @@
 package com.giavudangle.protobuf;
 
 public interface ScreenOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.Screen)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.Screen)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -14,27 +14,27 @@ public interface ScreenOrBuilder extends
   float getSizeInch();
 
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    * @return Whether the resolution field is set.
    */
   boolean hasResolution();
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    * @return The resolution.
    */
   com.giavudangle.protobuf.Screen.Resolution getResolution();
   /**
-   * <code>.giavudangle.protobuf.Screen.Resolution resolution = 2;</code>
+   * <code>.giavudangle.grpc.Screen.Resolution resolution = 2;</code>
    */
   com.giavudangle.protobuf.Screen.ResolutionOrBuilder getResolutionOrBuilder();
 
   /**
-   * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+   * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
    * @return The enum numeric value on the wire for panel.
    */
   int getPanelValue();
   /**
-   * <code>.giavudangle.protobuf.Screen.Panel panel = 3;</code>
+   * <code>.giavudangle.grpc.Screen.Panel panel = 3;</code>
    * @return The panel.
    */
   com.giavudangle.protobuf.Screen.Panel getPanel();

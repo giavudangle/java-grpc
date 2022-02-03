@@ -4,7 +4,7 @@
 package com.giavudangle.protobuf;
 
 public interface CPUOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.CPU)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.CPU)
     com.google.protobuf.MessageOrBuilder {
 
   /**

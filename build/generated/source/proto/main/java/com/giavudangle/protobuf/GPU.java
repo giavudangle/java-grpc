@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.GPU}
+ * Protobuf type {@code giavudangle.grpc.GPU}
  */
 public final class GPU extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.GPU)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.GPU)
     GPUOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GPU.newBuilder() to construct.
@@ -106,13 +106,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_GPU_descriptor;
+    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_GPU_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_GPU_fieldAccessorTable
+    return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_GPU_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.GPU.class, com.giavudangle.protobuf.GPU.Builder.class);
   }
@@ -218,7 +218,7 @@ private static final long serialVersionUID = 0L;
   public static final int MEMORY_FIELD_NUMBER = 5;
   private com.giavudangle.protobuf.Memory memory_;
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    * @return Whether the memory field is set.
    */
   @java.lang.Override
@@ -226,7 +226,7 @@ private static final long serialVersionUID = 0L;
     return memory_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    * @return The memory.
    */
   @java.lang.Override
@@ -234,7 +234,7 @@ private static final long serialVersionUID = 0L;
     return memory_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : memory_;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+   * <code>.giavudangle.grpc.Memory memory = 5;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
@@ -448,21 +448,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.GPU}
+   * Protobuf type {@code giavudangle.grpc.GPU}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.GPU)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.GPU)
       com.giavudangle.protobuf.GPUOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_GPU_descriptor;
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_GPU_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_GPU_fieldAccessorTable
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_GPU_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.GPU.class, com.giavudangle.protobuf.GPU.Builder.class);
     }
@@ -505,7 +505,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_protobuf_GPU_descriptor;
+      return com.giavudangle.protobuf.ProcessorMessage.internal_static_giavudangle_grpc_GPU_descriptor;
     }
 
     @java.lang.Override
@@ -846,14 +846,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> memoryBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      * @return Whether the memory field is set.
      */
     public boolean hasMemory() {
       return memoryBuilder_ != null || memory_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      * @return The memory.
      */
     public com.giavudangle.protobuf.Memory getMemory() {
@@ -864,7 +864,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public Builder setMemory(com.giavudangle.protobuf.Memory value) {
       if (memoryBuilder_ == null) {
@@ -880,7 +880,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public Builder setMemory(
         com.giavudangle.protobuf.Memory.Builder builderForValue) {
@@ -894,7 +894,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public Builder mergeMemory(com.giavudangle.protobuf.Memory value) {
       if (memoryBuilder_ == null) {
@@ -912,7 +912,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public Builder clearMemory() {
       if (memoryBuilder_ == null) {
@@ -926,7 +926,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public com.giavudangle.protobuf.Memory.Builder getMemoryBuilder() {
       
@@ -934,7 +934,7 @@ private static final long serialVersionUID = 0L;
       return getMemoryFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
       if (memoryBuilder_ != null) {
@@ -945,7 +945,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 5;</code>
+     * <code>.giavudangle.grpc.Memory memory = 5;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> 
@@ -973,10 +973,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.GPU)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.GPU)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.GPU)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.GPU)
   private static final com.giavudangle.protobuf.GPU DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.GPU();

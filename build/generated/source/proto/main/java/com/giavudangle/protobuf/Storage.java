@@ -4,11 +4,11 @@
 package com.giavudangle.protobuf;
 
 /**
- * Protobuf type {@code giavudangle.protobuf.Storage}
+ * Protobuf type {@code giavudangle.grpc.Storage}
  */
 public final class Storage extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:giavudangle.protobuf.Storage)
+    // @@protoc_insertion_point(message_implements:giavudangle.grpc.Storage)
     StorageOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Storage.newBuilder() to construct.
@@ -89,19 +89,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_protobuf_Storage_descriptor;
+    return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_grpc_Storage_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_protobuf_Storage_fieldAccessorTable
+    return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_grpc_Storage_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.giavudangle.protobuf.Storage.class, com.giavudangle.protobuf.Storage.Builder.class);
   }
 
   /**
-   * Protobuf enum {@code giavudangle.protobuf.Storage.Driver}
+   * Protobuf enum {@code giavudangle.grpc.Storage.Driver}
    */
   public enum Driver
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -214,20 +214,20 @@ private static final long serialVersionUID = 0L;
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:giavudangle.protobuf.Storage.Driver)
+    // @@protoc_insertion_point(enum_scope:giavudangle.grpc.Storage.Driver)
   }
 
   public static final int DRIVER_FIELD_NUMBER = 1;
   private int driver_;
   /**
-   * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+   * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
    * @return The enum numeric value on the wire for driver.
    */
   @java.lang.Override public int getDriverValue() {
     return driver_;
   }
   /**
-   * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+   * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
    * @return The driver.
    */
   @java.lang.Override public com.giavudangle.protobuf.Storage.Driver getDriver() {
@@ -239,7 +239,7 @@ private static final long serialVersionUID = 0L;
   public static final int MEMORY_FIELD_NUMBER = 2;
   private com.giavudangle.protobuf.Memory memory_;
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    * @return Whether the memory field is set.
    */
   @java.lang.Override
@@ -247,7 +247,7 @@ private static final long serialVersionUID = 0L;
     return memory_ != null;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    * @return The memory.
    */
   @java.lang.Override
@@ -255,7 +255,7 @@ private static final long serialVersionUID = 0L;
     return memory_ == null ? com.giavudangle.protobuf.Memory.getDefaultInstance() : memory_;
   }
   /**
-   * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+   * <code>.giavudangle.grpc.Memory memory = 2;</code>
    */
   @java.lang.Override
   public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
@@ -433,21 +433,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code giavudangle.protobuf.Storage}
+   * Protobuf type {@code giavudangle.grpc.Storage}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:giavudangle.protobuf.Storage)
+      // @@protoc_insertion_point(builder_implements:giavudangle.grpc.Storage)
       com.giavudangle.protobuf.StorageOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_protobuf_Storage_descriptor;
+      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_grpc_Storage_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_protobuf_Storage_fieldAccessorTable
+      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_grpc_Storage_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.giavudangle.protobuf.Storage.class, com.giavudangle.protobuf.Storage.Builder.class);
     }
@@ -484,7 +484,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_protobuf_Storage_descriptor;
+      return com.giavudangle.protobuf.StorageMessage.internal_static_giavudangle_grpc_Storage_descriptor;
     }
 
     @java.lang.Override
@@ -595,14 +595,14 @@ private static final long serialVersionUID = 0L;
 
     private int driver_ = 0;
     /**
-     * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+     * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
      * @return The enum numeric value on the wire for driver.
      */
     @java.lang.Override public int getDriverValue() {
       return driver_;
     }
     /**
-     * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+     * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
      * @param value The enum numeric value on the wire for driver to set.
      * @return This builder for chaining.
      */
@@ -613,7 +613,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+     * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
      * @return The driver.
      */
     @java.lang.Override
@@ -623,7 +623,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? com.giavudangle.protobuf.Storage.Driver.UNRECOGNIZED : result;
     }
     /**
-     * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+     * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
      * @param value The driver to set.
      * @return This builder for chaining.
      */
@@ -637,7 +637,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Storage.Driver driver = 1;</code>
+     * <code>.giavudangle.grpc.Storage.Driver driver = 1;</code>
      * @return This builder for chaining.
      */
     public Builder clearDriver() {
@@ -651,14 +651,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> memoryBuilder_;
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      * @return Whether the memory field is set.
      */
     public boolean hasMemory() {
       return memoryBuilder_ != null || memory_ != null;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      * @return The memory.
      */
     public com.giavudangle.protobuf.Memory getMemory() {
@@ -669,7 +669,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public Builder setMemory(com.giavudangle.protobuf.Memory value) {
       if (memoryBuilder_ == null) {
@@ -685,7 +685,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public Builder setMemory(
         com.giavudangle.protobuf.Memory.Builder builderForValue) {
@@ -699,7 +699,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public Builder mergeMemory(com.giavudangle.protobuf.Memory value) {
       if (memoryBuilder_ == null) {
@@ -717,7 +717,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public Builder clearMemory() {
       if (memoryBuilder_ == null) {
@@ -731,7 +731,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public com.giavudangle.protobuf.Memory.Builder getMemoryBuilder() {
       
@@ -739,7 +739,7 @@ private static final long serialVersionUID = 0L;
       return getMemoryFieldBuilder().getBuilder();
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     public com.giavudangle.protobuf.MemoryOrBuilder getMemoryOrBuilder() {
       if (memoryBuilder_ != null) {
@@ -750,7 +750,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.giavudangle.protobuf.Memory memory = 2;</code>
+     * <code>.giavudangle.grpc.Memory memory = 2;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.giavudangle.protobuf.Memory, com.giavudangle.protobuf.Memory.Builder, com.giavudangle.protobuf.MemoryOrBuilder> 
@@ -778,10 +778,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:giavudangle.protobuf.Storage)
+    // @@protoc_insertion_point(builder_scope:giavudangle.grpc.Storage)
   }
 
-  // @@protoc_insertion_point(class_scope:giavudangle.protobuf.Storage)
+  // @@protoc_insertion_point(class_scope:giavudangle.grpc.Storage)
   private static final com.giavudangle.protobuf.Storage DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.giavudangle.protobuf.Storage();

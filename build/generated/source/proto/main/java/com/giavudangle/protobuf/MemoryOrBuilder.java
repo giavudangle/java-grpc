@@ -4,7 +4,7 @@
 package com.giavudangle.protobuf;
 
 public interface MemoryOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:giavudangle.protobuf.Memory)
+    // @@protoc_insertion_point(interface_extends:giavudangle.grpc.Memory)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -14,12 +14,12 @@ public interface MemoryOrBuilder extends
   long getValue();
 
   /**
-   * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+   * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
    * @return The enum numeric value on the wire for unit.
    */
   int getUnitValue();
   /**
-   * <code>.giavudangle.protobuf.Memory.Unit unit = 2;</code>
+   * <code>.giavudangle.grpc.Memory.Unit unit = 2;</code>
    * @return The unit.
    */
   com.giavudangle.protobuf.Memory.Unit getUnit();
