@@ -1,16 +1,17 @@
 package service;
 
-import java.util.UUID;
-import java.util.logging.Logger;
-
 import com.giavudangle.protobuf.CreateLaptopRequest;
 import com.giavudangle.protobuf.CreateLaptopResponse;
 import com.giavudangle.protobuf.Laptop;
 import com.giavudangle.protobuf.LaptopServiceGrpc.LaptopServiceImplBase;
-
 import exception.AlreadyExistsException;
+import io.grpc.Context;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
+
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 public class LaptopService extends LaptopServiceImplBase {
 	private static final Logger logger = Logger.getLogger(LaptopService.class.getName());
@@ -43,10 +44,32 @@ public class LaptopService extends LaptopServiceImplBase {
 			}
 		}
 
-		Laptop other = laptop.toBuilder()
+		// 🦾 Heavy processing task
+		try {
+			TimeUnit.SECONDS.sleep(6);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		// Trigger response observer onError
+		if (Context.current().isCancelled()) {
+			logger.info("request is cancelled");
+			responseObserver.onError(
+					Status.CANCELLED
+							.withDescription("request is cancelled")
+							.asRuntimeException()
+			);
+			return;
+		}
+
+
+		// 💻 Laptop Builder
+		Laptop other = laptop
+				.toBuilder()
 				.setId(uuid.toString())
 				.build();
 
+		// 🦭 Create laptop response observer
 		try {
 			store.Save(other);
 		} catch (AlreadyExistsException e) {
@@ -65,6 +88,7 @@ public class LaptopService extends LaptopServiceImplBase {
 			return;
 		}
 
+		// 🌊 Create Laptop response
 		CreateLaptopResponse response = CreateLaptopResponse
 		.newBuilder()
 		.setId(other.getId())

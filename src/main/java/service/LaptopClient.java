@@ -7,6 +7,10 @@ import com.giavudangle.protobuf.LaptopServiceGrpc;
 import com.giavudangle.protobuf.LaptopServiceGrpc.LaptopServiceBlockingStub;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import io.grpc.Status;
+import io.grpc.StatusRuntimeException;
+import sample.Generator;
+import sample.Randomization;
 
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
@@ -30,16 +34,39 @@ public class LaptopClient {
         channel.shutdown().awaitTermination(5, TimeUnit.SECONDS);
     }
 
-    public void createLaptop(Laptop laptop){
+    public static void main(String[] args) throws InterruptedException {
+        LaptopClient client = new LaptopClient("0.0.0.0", 8080);
+        Randomization randomization = new Randomization();
+        Generator generator = new Generator(randomization);
+        Laptop laptop = generator.NewLaptop()
+                .toBuilder()
+                .setId("")
+                .build();
+
+        try {
+            client.createLaptop(laptop);
+        } finally {
+            client.shutdown();
+        }
+    }
+
+    public void createLaptop(Laptop laptop) {
         CreateLaptopRequest request = CreateLaptopRequest
                 .newBuilder()
                 .setLaptop(laptop)
                 .build();
         CreateLaptopResponse response = CreateLaptopResponse.getDefaultInstance();
         try {
-            response = blockingStub.createLaptop(request);
+            response = blockingStub.withDeadlineAfter(5, TimeUnit.SECONDS).createLaptop(request);
+        } catch (StatusRuntimeException e) {
+            if (e.getStatus().getCode() == Status.Code.ALREADY_EXISTS) {
+                logger.info("laptop ID already exists");
+                return;
+            }
+            logger.log(Level.SEVERE, "request failed: " + e.getMessage());
+            return;
         } catch (Exception e) {
-            logger.log(Level.SEVERE,"request failed: " + e.getMessage());
+            logger.log(Level.SEVERE, "request failed: " + e.getMessage());
             return;
         }
 
