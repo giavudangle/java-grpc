@@ -205,6 +205,8 @@ cmake/cmake-build-debug/
 .build/
 _build/
 
+build
+
 # Visual Studio 2017
 .vs
 
